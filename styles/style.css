@@ -1,3 +1,9 @@
+/* Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
 /* Live Match And Website Banner Section  */
 .intro-section {
   background-color: #2d25a0;
@@ -29,7 +35,7 @@
 
 .players {
   width: 1440px;
-  height: 3750px;
+  height: 2200px;
   background-color: #ffffff;
 }
 .inside-sec {
@@ -55,6 +61,7 @@
 
 /* Highlights Match Name And Watch Link  */
 .highlights {
+  width: 1440px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -66,4 +73,23 @@
 .highlight-img img {
   width: 567px;
   height: 427px;
+}
+
+/* Footer Section With Logo, Icons and Copyright */
+
+footer {
+  margin-top: 80px;
+  height: 300px;
+  text-align: center;
+}
+.logo img {
+  width: 483.87px;
+  height: 110px;
+}
+.fab {
+  padding: 20px 14px;
+}
+.copyright {
+  font-size: 18px;
+  color: #000000;
 }
