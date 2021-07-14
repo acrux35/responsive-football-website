@@ -43,20 +43,32 @@ body {
   height: 474px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 20px;
+  grid-column-gap: 30px;
   margin-left: 13%;
 }
 .player {
+  text-align: center;
   width: 330px;
   height: 474px;
   background: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   margin-bottom: 27px;
-  padding: 10px;
+  padding: 20px 5px;
 }
 .player img {
   width: 300px;
   height: 256px;
+}
+.player-info {
+  text-align: justify;
+}
+.player-name {
+  font-size: 28px;
+  color: #18191f;
+}
+.player-detail {
+  font-size: 16px;
+  color: #6c6c6c;
 }
 
 /* Highlights Match Name And Watch Link  */
@@ -79,6 +91,7 @@ body {
 
 footer {
   margin-top: 80px;
+  width: 1440px;
   height: 300px;
   text-align: center;
 }
